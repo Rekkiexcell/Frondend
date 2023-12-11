@@ -1,0 +1,18 @@
+/* 0px -- 468px */
+@media only screen and (min-widht: opx){
+    h1{
+        color: green;
+    }
+}
+/* 468 - 768 */
+@media only screen and (main-width: 469px){
+    h1{
+        color: yellow;
+    }
+}
+/* 769 - dst */
+@media only screen and (main-width: 769px){
+    h1{
+        color: yellow;
+    }
+}

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom</title>
+</head>
+<body>
+    <h1 id="text">PURWADHIKA</h1>
+    <input type="text" placeholder="Username" class="input">
+    <input type="password" placeholder="password" class="input">
+    <button id="button" onclick="changeText()">Change text</button>  
+</body>
+<script>
+    function changeText(){
+        const heading = document.getElementById("text")
+        console.log(document.getElementsByClassName("input")[0].value)
+        return heading.innerHTML="BSD"
+    }
+</script>
+</html>

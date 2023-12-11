@@ -1,0 +1,165 @@
+{
+  "user": [
+    {
+      "id": 1,
+      "username": "ryandefryan",
+      "email": "ryandef@gmail",
+      "password": "anb123"
+    },
+    {
+      "username": "asdasdasd",
+      "email": "asdasd@gmail.com",
+      "password": "asdasd",
+      "id": 2
+    },
+    {
+      "username": "asdda",
+      "email": "asd@gajnsjans",
+      "password": "1234",
+      "id": 3
+    },
+    {
+      "username": "asdda",
+      "email": "asd@gajnsjans",
+      "password": "1234",
+      "id": 4
+    },
+    {
+      "username": "very77",
+      "email": "very@gmail.com",
+      "password": "very1234",
+      "id": 5
+    }
+  ],
+    "products": [
+      {
+        "id": 1,
+        "name": "Overture Polo Choco",
+        "price": 249000,
+        "size": [
+          "s",
+          "m",
+          "l",
+          "xl",
+          "xxl"
+        ],
+        "stock": [
+          "5",
+          "10",
+          "15",
+          "20",
+          "25"
+        ],
+        "material": "Cotton 16's (100% Cotton)",
+        "image": "https://spaces.ilfen.co/assets/image/produk/dacbac76-46e9-4636-8bf8-2fecb7e1ecda.jpg"
+      },
+      {
+        "id": 2,
+        "name": "Overture Polo Shirt White",
+        "price": 249000,
+        "size": [
+          "s",
+          "m",
+          "l",
+          "xl",
+          "xxl"
+        ],
+        "stock": [
+          "5",
+          "10",
+          "15",
+          "20",
+          "25"
+        ],
+        "material": "Cotton 16's (100% Cotton)",
+        "image": "https://spaces.ilfen.co/assets/image/produk/3a9787bb-7a6a-4add-bf28-5da47387716b.jpg"
+      },
+      {
+        "id": 3,
+        "name": "Overture Polo Shirt Black",
+        "price": 249000,
+        "size": [
+          "s",
+          "m",
+          "l",
+          "xl",
+          "xxl"
+        ],
+        "stock": [
+          "5",
+          "10",
+          "15",
+          "20",
+          "25"
+        ],
+        "material": "Cotton 16's (100% Cotton)",
+        "image": "https://spaces.ilfen.co/assets/image/produk/576e4f06-34a5-4798-88a3-e8febe2aa9fe.jpg"
+      },
+      {
+        "id": 4,
+        "name": "POLO STRIPE SENSE 2 STRIPE NAVY BLUE",
+        "price": 349000,
+        "size": [
+          "s",
+          "m",
+          "l",
+          "xl"
+        ],
+        "stock": [
+          "5",
+          "10",
+          "15",
+          "20"
+        ],
+        "material": "Cotton 16's (100% Cotton)",
+        "image": "https://spaces.ilfen.co/assets/image/produk/f9c0a808-d989-40ca-b15a-fb9fc2fd02782.jpeg"
+      },
+      {
+        "id": 5,
+        "name": "POLO STRIPE SENSE 2 STRIPE MAROON WHITE",
+        "price": 349000,
+        "size": [
+          "s",
+          "m",
+          "l",
+          "xl"
+        ],
+        "stock": [
+          "5",
+          "10",
+          "15",
+          "20"
+        ],
+        "material": "Fine Gauge (100% Cotton )",
+        "image": "https://spaces.ilfen.co/assets/image/produk/1d03d211-a187-48a5-982b-5902ae9a4b53.jpeg"
+      },
+      {
+        "id": 6,
+        "brand": "Gucci",
+        "name": "GG Marmont Matelassé Shoulder Bag",
+        "color": "Black",
+        "material": "Leather",
+        "price": 32298000,
+        "image": "https://images.tokopedia.net/img/cache/900/VqbcmM/2022/7/15/6e72e1e0-73b4-4409-8c1e-e7c4d56d0340.jpg"
+      },
+      {
+        "id": 7,
+        "brand": "Louis Vuitton",
+        "name": "Speedy Bandoulière 30",
+        "color": "Monogram",
+        "material": "Canvas",
+        "price": 31500000,
+        "image": "https://id.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-speedy-bandouli%C3%A8re-30-monogram-tas-tangan--M41112_PM1_Worn%20view.png?wid=1090&hei=1090"
+      },
+      {
+        "id": 8,
+        "brand": "Prada",
+        "name": "Saffiano Leather Tote",
+        "color": "Navy Blue",
+        "material": "Saffiano Leather",
+        "price": 58500000,
+        "image": "https://cdn-images.farfetch-contents.com/19/89/55/60/19895560_44582898_1000.jpg"
+      }
+
+  ]
+}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>em & rem</title>
+    <sTYle>
+        :root{
+            font-size: 100px;
+        }
+        .parent{font-size: 1em;}
+        h1{font-size: 1em;}
+        h2{font-size: 3rem;}
+    </sTYle>
+</head>
+<body>
+    <!-- By default em & rem dikalikan 16px.
+        em: Mencari font size parennya yang bernilai px
+    rem: Mencari :root -->
+    <div class="parent"><h1>Purwadhika</h1></div>
+    <div class="parent2"><h2>BSD</h2></div>
+</body>
+</html>

@@ -1,0 +1,80 @@
+body{
+    margin: 0px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: gray;
+    height: 80px;
+    padding: 0px 50px;
+}
+.navbar #left-navbar{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.navbar #right-navbar{
+    display: flex;
+    gap: 30px;
+
+}
+
+.navbar #left-navbar .menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.navbar #left-navbar img{
+    width: 30px;
+    height: 30px;
+}
+.jumbotron{
+    position: relative;
+}
+.jumbotron video{
+    width: 100%;
+}
+.jumbotron h1{
+    position: absolute;
+    bottom: 300px;
+    left: 300px;
+    color: white;
+    font-size: 60px;
+    max-width: 100px;
+}
+
+/* Mobile */
+/* 0px - 749px  */
+@media only screen and(min-width: 0px){
+    .navbar #right-navbar .dropdown{
+        display: none;
+    }
+}
+.jumbotron h1{
+    display: none;
+    position: absolute;
+    bottom: 300px;
+    left: 300px;
+    color: white;
+    font-size: 60px;
+    max-width: 100px;
+}
+/* Dextop */
+/* 750 - dst */
+@media only screen and(min-width: 750px) {
+    .navbar #right-navbar .dropdown{
+        display: block;
+    }
+}
+
+.jumbotron h1{
+    display: block;
+    position: absolute;
+    bottom: 300px;
+    left: 300px;
+    color: white;
+    font-size: 60px;
+    max-width: 100px;
+}

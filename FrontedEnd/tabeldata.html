@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabel data</title>
+    <style>
+        table{
+            border-collapse: collapse;
+            width: 100%;
+        }
+        th,td {
+            border: 1px solid orange;
+            text-align: left;
+            padding: 50px;
+            width: max-content;
+            height: max-content;
+            font-size: 18px;
+        }
+        th{background-color: blue;}
+        td{background-color: yellow;}
+        td img {width: 200px; height: auto;}
+        h2 {text-align: center;}
+        th.cc {width: 50px;}
+        input[type="radio"]{margin-right: 5px;} 
+    </style>
+</head>
+<body>
+   <h2>TABEL DATA</h2>
+   <table>
+    <thead>
+        <tr>
+      <th class="no">NO</th><th>Hewan</th><th>Makanan</th><th>Group</th>
+    </tr>
+</thead>
+<tbody>
+    <tr><td>1</td><td><img src="kucengoren.jpeg" alt=""></td><td>Ikan</td>
+        <td><input type="radio" name="selectRow">kucing oren<input type="radio" name="selectRow">kucing biasa</tr>
+    <tr><td>2</td><td><img src="elang.jpeg" alt=""></td><td>daging</td>
+        <td><input type="radio" name="selectRow">elang<input type="radio" name="selectRow">burung hantu</tr>
+    <tr><td>3</td><td><img src="python.jpeg" alt=""></td><td>daging</td>
+        <td><input type="radio" name="selectRow">ular sawah<input type="radio" name="selectRow">ular python</tr>
+    <tr><td>4</td><td><img src="singa.jpeg" alt=""></td><td>daging</td>
+        <td><input type="radio" name="selectRow">singa<input type="radio" name="selectRow">kucing besar</tr>
+    <tr><td>5</td><td><img src="sapi.jpeg" alt=""></td><td>rumput</td>
+        <td><input type="radio" name="selectRow">sapi<input type="radio" name="selectRow">banteng</tr>
+</tbody>
+   </table> 
+</body>
+</html>

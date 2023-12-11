@@ -1,0 +1,49 @@
+.body{
+    margin: 0px;
+}
+.box-01{
+    width: 150px;
+    height: 150px;
+    background-color: salmon;
+}
+.box-02{
+    position: relative;
+    top: 100px;
+    left: 30px;
+    width: 150;
+    height: 150;
+    background-color: slateblue;
+}
+.box-3{
+    width: 150;
+    height: 150;
+    background-color: yellowgreen;
+}
+.box-04{
+    width: 150;
+    height: 150;
+    background-color: grey;
+}
+.box-05{
+    position: absolute;
+    bottom: 0px;
+    width: 150px;
+    height: 150px;
+    background-color: gold;
+}
+.box-06{
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+}
+
+.navbar{
+    width: 100%;
+    background-color: grey;
+    position: fixed;
+    top: 0px;
+}
+.socmed{
+    position: sticky;
+
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Specificity</title>
+    <style>
+        h1 {
+            background-color: brown;
+        }
+        .title{
+            background-color: aqua;
+        }
+        #title{
+            background-color: blueviolet;
+        }
+    </style>
+</head>
+<body>
+    <!-- Specificity Poin: 
+    !Importan > inline styling > id > class > tag 
+    1000        > 1000          >100 > 10   > 10 
+    -->
+    
+    <h1 style="background-color: green;">PWDK</h1>
+    <h2 id="title" class="title">BSD</h2>
+</body>
+</html>
